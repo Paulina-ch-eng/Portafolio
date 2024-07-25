@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1,
+header p {
+    margin: 0;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #000;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Sección Sobre Mí */
+#sobre-mi .card {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Sección Habilidades */
+#habilidades {
+    padding: 2rem 0;
+}
+
+#habilidades h2 {
+    margin-bottom: 2rem;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades li {
+    padding: 0.5rem 0;
+}
+
+/* Sección Proyectos */
+#proyectos .card-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#proyectos .card {
+    flex: 1;
+    margin: 1rem;
+}
+
+/* Sección Educación y Experiencia */
+#educacion-experiencia {
+    padding: 2rem 0;
+}
+
+#educacion-experiencia ul {
+    list-style: none;
+    padding: 0;
+}
+
+#educacion-experiencia li {
+    margin: 0.5rem 0;
+}
+
+/* Sección Contacto */
+#contacto {
+    padding: 2rem 0;
+}
+
+#contacto .form-label {
+    font-weight: bold;
+}
+
+#contacto button {
+    margin-top: 1rem;
+}
+
+#contacto p {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Ajuste para las imágenes */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+
+
