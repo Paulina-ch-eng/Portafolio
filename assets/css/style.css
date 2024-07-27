@@ -1,109 +1,105 @@
-/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Encabezado */
 header {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
+
+    background-image: linear-gradient(to right, #2e2e2e 0%, hwb(0 9% 91%) 100%);
 }
 
-header h1,
-header p {
-    margin: 0;
+.img-fluid {
+    max-width: 600px; /* Ajusta el ancho deseado */
+    height: 500px;
+    border-radius: 50%;
 }
 
-/* Navegación */
+
+.conocimiento-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.conocimiento-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#lista-habilidades-tecnicas li, #lista-habilidades-blandas li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#lista-habilidades-tecnicas li:hover, #lista-habilidades-blandas li:hover {
+    color: #007bff;
+}
+
+form .btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
 .navbar {
-    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .nav-link {
-    color: #fff !important;
+section {
+    padding: 60px 0;
 }
 
-.navbar .nav-link:hover {
-    color: #ccc !important;
+#contacto,#formulario-contacto {
+    max-width: 350px;
+    
 }
 
-/* Sección Sobre Mí */
-#sobre-mi .card {
-    max-width: 540px;
-    margin: 0 auto;
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 70px 0px 30px 0px;
 }
 
-/* Sección Habilidades */
-#habilidades {
-    padding: 2rem 0;
+footer i {
+    margin-right: 40px;
 }
 
-#habilidades h2 {
-    margin-bottom: 2rem;
+footer svg,
+footer .fab.fa-linkedin {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-#habilidades ul {
-    list-style: none;
-    padding: 0;
+
+.seccion-a-cambiar {
+    background-color: gainsboro;
+    transition: background-color 0.5s ease; /* Transición suave para el cambio de color */
 }
 
-#habilidades li {
-    padding: 0.5rem 0;
+.seccion-a-cambiar:hover {
+    background-color: #77adff;
 }
 
-/* Sección Proyectos */
-#proyectos .card-group {
-    display: flex;
-    flex-wrap: wrap;
+
+.seccion-a-cambiar2 {
+    background-color: gainsboro;
+    transition: background-color 0.5s ease; /* Transición suave para el cambio de color */
 }
 
-#proyectos .card {
-    flex: 1;
-    margin: 1rem;
+.seccion-a-cambiar2:hover {
+    background-color: #77adff;
 }
 
-/* Sección Educación y Experiencia */
-#educacion-experiencia {
-    padding: 2rem 0;
-}
-
-#educacion-experiencia ul {
-    list-style: none;
-    padding: 0;
-}
-
-#educacion-experiencia li {
-    margin: 0.5rem 0;
-}
-
-/* Sección Contacto */
-#contacto {
-    padding: 2rem 0;
-}
-
-#contacto .form-label {
-    font-weight: bold;
-}
-
-#contacto button {
-    margin-top: 1rem;
-}
-
-#contacto p {
-    margin-top: 1rem;
-    font-weight: bold;
-}
-
-/* Ajuste para las imágenes */
 .card-img-top {
     width: 100%;
-    height: auto;
-}
-
-
-
+    height: 310px; /* Ajusta este valor según tus necesidades */
+    object-fit:cover;
+  }
